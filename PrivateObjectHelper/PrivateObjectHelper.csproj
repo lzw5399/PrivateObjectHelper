@@ -1,7 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>MS Test</Authors>
+    <Description>PrivateObject for unit tests, extracted from MsTest code, suitable for MsTest、XUnit、NUnit. Powered by .Net Standard 2.0</Description>
+    <PackageProjectUrl>https://github.com/zhiwen-kooboo/PrivateObjectHelper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zhiwen-kooboo/PrivateObjectHelper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>unittest;xunit;nunit;mstest</PackageTags>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Title>$(AssemblyName)</Title>
+    <IsPackable>true</IsPackable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
   </PropertyGroup>
 
 </Project>
